@@ -1,0 +1,46 @@
+.block-hero-subpage {
+  .content-container {
+    min-height:240px;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      color:white;
+      font-size: 72px;
+    }
+    p {
+      color:#a8afc2;
+      font-size:20px;
+    }
+    .hero-top-text {
+      padding-left:4rem;
+      margin-bottom:1.5rem;
+      position: relative;
+      &:before {
+        position: absolute;
+        left:0;
+        top:50%;
+        content:"";
+        border-bottom:2px solid;
+        width:3rem;
+      }
+    }
+    .hero-text {
+      margin-top:1.5rem;
+    }
+    @include media-breakpoint-down(lg) {
+      h1 {
+        font-size: 48px;
+      }
+    }
+    @include media-breakpoint-down(md) {
+      min-height:initial;
+      h1 {
+        font-size: 40px;
+      }
+    }
+  }
+}

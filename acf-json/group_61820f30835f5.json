@@ -1,0 +1,44 @@
+{
+    "key": "group_61820f30835f5",
+    "title": "Nav Menu Icons",
+    "fields": [
+        {
+            "key": "field_61820f3938b9f",
+            "label": "Icon class",
+            "name": "icon_class",
+            "type": "text",
+            "instructions": "Add your font-awesome icon classes into this field eg. \"fa-regular fa-flying-disc\" that you get from the font awesome site, yes use all of the classes. Thank you very much",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "wpml_cf_preferences": 1,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "nav_menu_item",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1635913751
+}

@@ -1,0 +1,43 @@
+footer {
+  h2 {
+    color:white;
+    margin-bottom:1.5rem;
+    font-size:24px;
+  }
+  p {
+    color:white;
+    margin-bottom: 0;
+    padding:0.125rem 0;
+  }
+  img.footer-logo {
+    height: 50px;
+    //margin-top:3rem;
+    margin-bottom:1.5rem;
+
+  }
+  svg {
+    path {
+      fill:white;
+    }
+  }
+  ul {
+    list-style: none;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom:0;
+    li {
+      float:left;
+      a {
+        display: block;
+        padding:0.125rem 0;
+        color:white;
+        text-decoration: none;
+      }
+    }
+  }
+  .footer-center {
+    padding-top:3rem;
+    padding-bottom:4rem;
+  }
+}

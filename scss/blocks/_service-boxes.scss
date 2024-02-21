@@ -1,0 +1,22 @@
+.block-service-boxes {
+  padding: 6rem 0 3rem;
+  //background: #eeeeee;
+  background: #232034;
+  h1,h2,h3,h4,h5,h6,p,span {
+    color:white;
+  }
+  .service-box {
+    margin-bottom:4rem;
+  }
+  .icon-container {
+
+    margin-right:2rem;
+
+    svg {
+      width: 36px;
+      path {
+        fill: #f55c5c;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.block-people {
+  padding-top:60px;
+  padding-bottom:48px;
+  background:#071432;
+  h2 {
+    color:white;
+    margin-bottom:2rem;
+  }
+  p {
+    color:white;
+  }
+  .person-card {
+    margin-top:2rem;
+    text-align: center;
+    .ratio {
+      max-width:200px;
+      margin:0 auto;
+    }
+    img {
+      border-radius: 500px;
+    }
+    h3 {
+      color:white;
+      font-size:24px;
+      margin-top:1rem;
+      margin-bottom:1rem;
+    }
+    p {
+      margin-bottom:0.5rem;
+    }
+    svg {
+      width:20px;
+      margin-right:1rem;
+    }
+  }
+}

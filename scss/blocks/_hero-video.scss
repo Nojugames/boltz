@@ -1,0 +1,44 @@
+.block-hero-video {
+  img {
+    max-width:120px;
+    height:auto;
+    margin-bottom:1rem;
+  }
+  .top-text {
+    max-width: 720px;
+    color:#ff9308;
+    font-size:24px;
+    @include media-breakpoint-down(lg) {
+      font-size: 20px;
+    }
+  }
+  .muffe-line {
+    width:40px;
+    background:white;
+    height:4px;
+    @include media-breakpoint-down(lg) {
+      height:2px;
+      margin-bottom:16px;
+    }
+  }
+  .the-title {
+    max-width:400px;
+    font-size:60px;
+    @include media-breakpoint-down(lg) {
+      font-size: 32px;
+    }
+  }
+  .the-paragraph {
+    max-width: 720px;
+    font-size:24px;
+    padding:0 16px;
+    @include media-breakpoint-down(lg) {
+      font-size: 20px;
+    }
+  }
+  @include media-breakpoint-down(lg) {
+    .ratio::before {
+      min-height:400px;
+    }
+  }
+}

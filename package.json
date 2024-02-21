@@ -1,0 +1,29 @@
+{
+  "name": "noju",
+  "version": "1.0.0",
+  "description": "=== Muffes Bygg ===",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^3.0.0"
+  },
+  "devDependencies": {
+    "critical": "^4.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-penthouse": "^0.2.0",
+    "gulp-purgecss": "^4.1.3",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.4.19",
+    "purgecss-with-wordpress": "^4.1.0",
+    "sass": "^1.56.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

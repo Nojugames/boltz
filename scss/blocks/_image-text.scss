@@ -1,0 +1,38 @@
+.block-image-text {
+  padding-top:4rem;
+  padding-bottom:4rem;
+  .img-cont {
+    padding-right:2rem;
+    img {
+      max-width:100%;
+      height:auto;
+      border-radius:24px;
+      margin-right: 32px;
+      box-shadow: -16px 16px 0 #f45f1647;
+    }
+  }
+
+  .thing-list {
+    svg {
+      width: 28px;
+      height: auto;
+      margin-top: 5px;
+      margin-right: 12px;
+      path {
+        fill: #f45f16;
+      }
+    }
+  }
+  &.background-dark {
+    //background-color: #071432;
+    background-color: #253d4e;
+    h2,h3,p,a {
+      color:white;
+    }
+    .img-cont {
+      img {
+        box-shadow:-16px 16px 0 #ff9d6d
+      }
+    }
+  }
+}

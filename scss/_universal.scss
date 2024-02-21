@@ -1,0 +1,88 @@
+body {
+  background:#070a11;
+  font-family: 'Open Sans', sans-serif;
+}
+#wrapper {
+  //padding-top:120px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  //font-family: 'Noto Serif', serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color:white;
+}
+h1 {
+  font-size:54px;
+}
+h2 {
+  font-size:44px;
+}
+h3 {
+  font-size:24px;
+}
+h4 {
+  font-size:20px;
+}
+h5 {
+  font-size:18px;
+  font-weight: normal;
+}
+p,span {
+  color:#a8afc2;
+}
+
+.wvs-attachment-image {
+  width:100%;
+  height:auto;
+}
+
+svg {
+  width:24px;
+}
+a {
+  font-weight: 500;
+}
+// Don't get why this not standard
+.ratio {
+  img {
+    object-fit: cover;
+  }
+}
+// Override bs styles
+.btn-primary, .woocommerce a.button { // TODO Will correct this to use mixins and color variables any day now
+  color: white;
+  background-color: #071432;
+  border-color: #071432;
+  font-weight: 500;
+  &:hover {
+    background-color: #02050e;
+    border-color: #02050e;
+    color: white;
+  }
+}
+
+.btn-lg {
+  padding:1rem 2rem;
+}
+
+.navbar-brand {
+  img {
+    max-height: 40px;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+  }
+}
+
+#breadcrumbs {
+  span {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  a {
+    color: #f45f16;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}

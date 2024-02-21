@@ -1,0 +1,86 @@
+.block-hero-large {
+  background: #070a11;
+  //background-image: linear-gradient(to top right, #070a11, #2c044d);
+  //background: linear-gradient(to top right, rgba(7, 10, 17, 0.95), rgba(7, 10, 17, 0.95)),url("../../assets/bgmonster2.png");
+  //background: linear-gradient(to top right, rgb(0, 0, 0, 1), rgba(44, 4, 77, 0.9)),url("https://img.fortawesome.com/1ce05b4b/hero-icon-bg.svg");
+  //rgba(7, 10, 17, 1)
+  //rgba(44, 4, 77, 1)
+  //background-repeat: no-repeat;
+  //background-size:cover;
+  background-size: 50%;
+  .hero-img {
+    //mask-image: url('../../assets/droplet-solid.svg');
+    //mask-image: url('../../assets/computer-mouse-solid.svg');
+    //mask-image: url('../../assets/HGERO-BOXES.svg');
+    //mask-size: auto, auto;
+    //mask-repeat: no-repeat;
+
+  }
+  .content-container {
+    //min-height:1024px;
+    min-height:720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+      color:white;
+      font-size: 72px;
+    }
+    p {
+      color:#a8afc2;
+      font-size:20px;
+    }
+    .hero-top-text {
+      padding-left:4rem;
+      margin-bottom:2rem;
+      position: relative;
+      &:before {
+        position: absolute;
+        left:0;
+        top:50%;
+        content:"";
+        border-bottom:2px solid;
+        width:3rem;
+      }
+    }
+    .hero-text {
+      margin-top:2rem;
+    }
+    @include media-breakpoint-down(lg) {
+      min-height:400px;
+      padding-top:2rem;
+      padding-bottom:3rem;
+      h1 {
+        font-size: 48px;
+      }
+    }
+    @include media-breakpoint-down(md) {
+      min-height:initial;
+      h1 {
+        font-size: 40px;
+      }
+    }
+    .btn.btn-outline-white {
+      &:hover {
+        background-color:#59ffb1 !important;
+        border-color: #59ffb1;
+        color:black !important;
+      }
+    }
+  }
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width:100%;
+      height:auto;
+      @include media-breakpoint-down(md) {
+        //width:100px;
+        max-width:100%;
+        margin-top:2rem;
+        margin-bottom:2rem;
+      }
+    }
+  }
+}

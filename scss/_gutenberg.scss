@@ -1,0 +1,11 @@
+.wp-block-group {
+  @include make-container();
+  max-width: map-get($container-max-widths,'xxl');
+
+  &.alignfull {
+    max-width: 100%;
+  }
+  .wp-block-group__inner-container {
+    //@include make-row();
+  }
+}
